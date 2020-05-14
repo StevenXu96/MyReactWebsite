@@ -199,3 +199,6 @@ li a:hover:not(.active) {
     cursor: pointer;
 }
 
+.NavBar {
+    width: 16%
+}
