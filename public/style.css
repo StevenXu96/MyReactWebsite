@@ -74,6 +74,16 @@ header > p {
     margin-left: 60px;
 }
 
+.frameworks{
+    margin-left: 25%;
+    font-style: italic;
+}
+
+.languages{
+    margin-left: 25%;
+    font-style: italic;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
