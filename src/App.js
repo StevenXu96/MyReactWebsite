@@ -12,11 +12,10 @@ function App(){
             <Header />
             <NavBar />
             <Switch>
-                <Route path={"/"} exact component={About} />
+                <Route path={"/MyReactWebsite/"} exact component={About} />
                 <Route path={"/about"} exact component={About} />
                 <Route path={"/projects"} exact component={Projects} />
                 <Route path={"/contact"} exact component={Contact} />
-                <Route path={"/contact?"} exact component={Contact} />
             </Switch>
         </BrowserRouter>
     )
