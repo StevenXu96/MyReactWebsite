@@ -51,7 +51,7 @@ class Contact extends React.Component{
     render() {
         return (
             <div style={{marginLeft: "25%", padding: "30px 20px"}}>
-                <form className="contact-form" id="contact-form" onSubmit={this.handleSubmit}>
+                <form className="contact-form" id="contact-form" >
                     <div className="form-group">
                         <label>Name</label>
                         <input type="text" className="form-control" id="name" value={this.state.name} onChange={this.handleChange} />
@@ -68,7 +68,7 @@ class Contact extends React.Component{
                         <textarea className="form-control" maxLength="150" rows="5" cols="50" id="message" value={this.state.message} onChange={this.handleChange}/>
                     </div>
                     <br />
-                    <button type="submit" className="contact-me-button">Submit</button>
+                    <button className="contact-me-button" onClick={this.handleSubmit}>SUBMIT</button>
                 </form>
             </div>
         )
