@@ -36,6 +36,7 @@ class Contact extends React.Component{
          */
         alert("Email Sent!")
         this.resetForm();
+        event.preventDefault();
     }
 
     resetForm(){
