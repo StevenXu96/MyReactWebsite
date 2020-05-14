@@ -13,20 +13,20 @@ function About(){
                 </p>
                 <br />
                 <h2>Languages I am familiar with:</h2>
-                <ul className="languages">
+                <ol className="languages">
                     <li>Python</li>
                     <li>Java</li>
                     <li>C, C++</li>
                     <li>JavaScript</li>
                     <li>HTML</li>
                     <li>CSS</li>
-                </ul>
+                </ol>
                 <br />
                 <h2>Web frameworks I am familiar with:</h2>
-                <ul className="frameworks">
+                <ol className="frameworks">
                     <li>React</li>
                     <li>django</li>
-                </ul>
+                </ol>
             </div>
         </h1>
     )
