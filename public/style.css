@@ -200,5 +200,9 @@ li a:hover:not(.active) {
 }
 
 .NavBar {
-    width: 16%
+    width: 18%
+}
+
+.Nav {
+    width: 18%
 }
