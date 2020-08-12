@@ -1,7 +1,6 @@
 import React from 'react'
 import Avalon from '../Projects/Avalon'
 import Calendar from '../Projects/Calendar'
-import BitTorrent from "../Projects/BitTorrent";
 
 function Projects(){
     return(
@@ -9,7 +8,6 @@ function Projects(){
             <div className="Projects">
                 <Avalon />
                 <Calendar />
-                <BitTorrent />
             </div>
         </h1>
     )
