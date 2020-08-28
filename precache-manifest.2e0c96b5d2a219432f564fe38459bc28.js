@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "363ad31a4fcf88fe88b7b4a31d092523",
+    "revision": "bdacd33e232fbd6c952cd7e3b46494ef",
     "url": "/MyReactWebsite/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MyReactWebsite/static/js/2.beb50654.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bcc8ecae59f18e8e0eb6",
-    "url": "/MyReactWebsite/static/js/main.6128c9b2.chunk.js"
+    "revision": "54c4777a91bd4433405a",
+    "url": "/MyReactWebsite/static/js/main.63ea56df.chunk.js"
   },
   {
     "revision": "8354289594199d0845fe",
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MyReactWebsite/static/media/Avalon.50d89309.png"
   },
   {
-    "revision": "4c68c8141e07004261dc3c306c8d3723",
-    "url": "/MyReactWebsite/static/media/NBA.4c68c814.png"
+    "revision": "176d60b108107778386e77e81fede84a",
+    "url": "/MyReactWebsite/static/media/NBA.176d60b1.png"
   },
   {
     "revision": "8f3cea0ec0524d4d59dc163692ec9b67",

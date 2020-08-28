@@ -7,7 +7,7 @@
     background-image: url('https://i.imgur.com/yGmrlyg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 10%;
+    height: 8%;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -17,7 +17,7 @@
 
 .masthead-heading {
     color: #F1C863;
-    margin-top: -0.2em;
+    margin-top: 0.3em;
     font-family: "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: bold;
     font-size: 5em;
