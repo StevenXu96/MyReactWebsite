@@ -8,10 +8,10 @@ import Contact from './components/Contact'
 
 function App(){
     return(
-        <BrowserRouter>
-            <Header />
-            <NavBar />
-            <Switch>
+        <BrowserRouter className="main_grid">
+            <Header className="item1"/>
+            <NavBar className="item2"/>
+            <Switch className="item3">
                 <Route path={"/MyReactWebsite/"} exact component={About} />
                 <Route path={"/about"} exact component={About} />
                 <Route path={"/projects"} exact component={Projects} />

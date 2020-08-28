@@ -2,54 +2,37 @@
     box-sizing: border-box;
 }
 
-/*
-header.sticky {
-    height: 100px;
-    display: flex;
-    align-items: center;
-    position: center;
-    background: #6441A5;
-    background: -webkit-linear-gradient(to right, #2a0845, #6441A5);
-    background: linear-gradient(to right, #2a0845, #6441A5);
-    z-index: 2;
+.main_grid{
+    display: grid;
+    grid-template-columns: 25% auto;
+    grid-template-rows: 6.5em auto;
+    padding: 10px;
 }
 
-header.sticky{
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    background-color: yellow;
-    padding: 50px;
-    font-size: 20px;
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
-*/
 
 .sticky {
     padding: 0.01em 0;
     background-image: url('https://i.imgur.com/yGmrlyg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 15%;
+    height: 6em;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 3;
 }
 
-.masthead-intro {
-    /* Layout Declarations */
-    margin-bottom: 0.1em;
-    /* Typography Declarations */
-    font-family: "Gentium Book Basic", Georgia, serif;
-    font-size: 1.5em;
-}
 
 .masthead-heading {
     color: #F1C863;
-    margin-top: -0.2em;
+    margin-top: 0.15em;
     font-family: "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: bold;
-    font-size: 5em;
+    font-size: 4.5em;
     letter-spacing: -0.02em;
     text-transform: uppercase;
 }
@@ -120,6 +103,7 @@ li a:hover:not(.active) {
     grid-template-columns: 50% 50%;
     grid-column-gap:1em;
     grid-row-gap: 1em;
+    padding: 1em;
     grid-auto-rows: minmax(400px, auto);
 }
 
