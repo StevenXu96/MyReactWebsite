@@ -5,13 +5,7 @@
 .main_grid{
     display: grid;
     grid-template-columns: 25% auto;
-    grid-template-rows: 6.5em auto;
     padding: 10px;
-}
-
-.item1{
-    grid-column-start: 1;
-    grid-column-end: 3;
 }
 
 .sticky {
@@ -19,7 +13,7 @@
     background-image: url('https://i.imgur.com/yGmrlyg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 6em;
+    height: 6.5em;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
