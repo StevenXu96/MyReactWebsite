@@ -7,7 +7,7 @@
     background-image: url('https://i.imgur.com/yGmrlyg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 5.3em;
+    height: 6em;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -20,7 +20,7 @@
     margin-top: 0.15em;
     font-family: "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: bold;
-    font-size: 5em;
+    font-size: 4.5em;
     letter-spacing: -0.02em;
     text-transform: uppercase;
 }
@@ -91,6 +91,7 @@ li a:hover:not(.active) {
     grid-template-columns: 50% 50%;
     grid-column-gap:1em;
     grid-row-gap: 1em;
+    padding: 1em;
     grid-auto-rows: minmax(400px, auto);
 }
 
