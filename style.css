@@ -4,7 +4,7 @@
 
 .main_grid{
     display: grid;
-    grid-template-columns: 25% auto;
+    grid-template-columns: 20% auto;
 }
 
 .item2{
@@ -17,6 +17,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 6.5em;
+    width: 100%;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -68,7 +69,7 @@ ul {
     padding: 0;
     background-color: #f1f1f1;
     position: fixed;
-    width: 25%;
+    width: 20%;
     height: 100%;
     overflow: auto;
 }
@@ -98,6 +99,7 @@ li a:hover:not(.active) {
 .Projects{
     display:grid;
     grid-template-columns: auto auto;
+    padding: 0;
     grid-column-gap:1em;
     grid-row-gap: 1em;
     grid-auto-rows: minmax(400px, auto);
