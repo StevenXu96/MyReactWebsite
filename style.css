@@ -7,6 +7,10 @@
     grid-template-columns: 25% auto;
 }
 
+.item2{
+    padding: 1em
+}
+
 .sticky {
     padding: 0.01em 0;
     background-image: url('https://i.imgur.com/yGmrlyg.jpg');
@@ -96,7 +100,6 @@ li a:hover:not(.active) {
     grid-template-columns: auto auto;
     grid-column-gap:1em;
     grid-row-gap: 1em;
-    padding: 2em;
     grid-auto-rows: minmax(400px, auto);
 }
 
