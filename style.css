@@ -2,6 +2,18 @@
     box-sizing: border-box;
 }
 
+.main_grid{
+    display: grid;
+    grid-template-columns: 25% auto;
+    grid-template-rows: 6.5em auto;
+    padding: 10px;
+}
+
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
 .sticky {
     padding: 0.01em 0;
     background-image: url('https://i.imgur.com/yGmrlyg.jpg');
