@@ -8,15 +8,21 @@ import Contact from './components/Contact'
 
 function App(){
     return(
-        <BrowserRouter className="main_grid">
-            <Header className="item1"/>
-            <NavBar className="item2"/>
-            <Switch className="item3">
-                <Route path={"/MyReactWebsite/"} exact component={About} />
-                <Route path={"/about"} exact component={About} />
-                <Route path={"/projects"} exact component={Projects} />
-                <Route path={"/contact"} exact component={Contact} />
-            </Switch>
+        <BrowserRouter>
+            <Header />
+            <div className="main_grid">
+                <div className="item1">
+                    <NavBar />
+                </div>
+                <div className="item2">
+                    <Switch>
+                        <Route path={"/MyReactWebsite/"} exact component={About} />
+                        <Route path={"/about"} exact component={About} />
+                        <Route path={"/projects"} exact component={Projects} />
+                        <Route path={"/contact"} exact component={Contact} />
+                    </Switch>
+                </div>
+            </div>
         </BrowserRouter>
     )
 }

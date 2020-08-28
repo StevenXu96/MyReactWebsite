@@ -6,14 +6,14 @@ import SortingVisualizer from '../Projects/SortingVisualizer'
 
 function Projects(){
     return(
-        //<h1 style={{padding:"20px"}}>
+        <h1>
             <div className="Projects">
                 <SortingVisualizer />
                 <NBA />
                 <Avalon />
                 <Calendar />
             </div>
-        //</h1>
+        </h1>
     )
 }
 

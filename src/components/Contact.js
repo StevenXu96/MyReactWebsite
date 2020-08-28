@@ -51,7 +51,7 @@ class Contact extends React.Component{
 
     render() {
         return (
-            <div style={{marginLeft: "25%", padding: "30px 20px"}}>
+            <div style={{padding: "30px"}}>
                 <form className="contact-form" id="contact-form" >
                     <div className="form-group">
                         <label>Name</label>

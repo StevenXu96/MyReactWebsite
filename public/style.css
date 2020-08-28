@@ -4,14 +4,11 @@
 
 .main_grid{
     display: grid;
-    grid-template-columns: 25% auto;
-    grid-template-rows: 6.5em auto;
-    padding: 10px;
+    grid-template-columns: 20% auto;
 }
 
-.item1{
-    grid-column-start: 1;
-    grid-column-end: 3;
+.item2{
+    padding: 1em
 }
 
 .sticky {
@@ -19,7 +16,8 @@
     background-image: url('https://i.imgur.com/yGmrlyg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 6em;
+    height: 6.5em;
+    width: 100%;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -48,6 +46,12 @@ body {
     background-color: whitesmoke;
 }
 
+.about_grid{
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-auto-rows: minmax(400px, auto);
+}
+
 
 header > p {
     font-family: VT323, monospace;
@@ -57,21 +61,13 @@ header > p {
     margin-left: 60px;
 }
 
-.frameworks{
-    font-style: italic;
-}
-
-.languages{
-    font-style: italic;
-}
-
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 25%;
     background-color: #f1f1f1;
     position: fixed;
+    width: 20%;
     height: 100%;
     overflow: auto;
 }
@@ -100,10 +96,10 @@ li a:hover:not(.active) {
 
 .Projects{
     display:grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: auto auto;
+    padding: 0;
     grid-column-gap:1em;
     grid-row-gap: 1em;
-    padding: 1em;
     grid-auto-rows: minmax(400px, auto);
 }
 
@@ -191,6 +187,7 @@ li a:hover:not(.active) {
     cursor: pointer;
 }
 
+/*
 .NavBar {
     width: 18%
 }
@@ -198,3 +195,4 @@ li a:hover:not(.active) {
 .Nav {
     width: 18%
 }
+*/
