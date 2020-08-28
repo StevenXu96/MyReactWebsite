@@ -5,7 +5,6 @@
 .main_grid{
     display: grid;
     grid-template-columns: 25% auto;
-    padding: 10px;
 }
 
 .sticky {
@@ -63,7 +62,6 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 25%;
     background-color: #f1f1f1;
     position: fixed;
     height: 100%;
@@ -94,10 +92,10 @@ li a:hover:not(.active) {
 
 .Projects{
     display:grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: auto auto;
     grid-column-gap:1em;
     grid-row-gap: 1em;
-    padding: 1em;
+    padding: 2em;
     grid-auto-rows: minmax(400px, auto);
 }
 
@@ -185,6 +183,7 @@ li a:hover:not(.active) {
     cursor: pointer;
 }
 
+/*
 .NavBar {
     width: 18%
 }
@@ -192,3 +191,4 @@ li a:hover:not(.active) {
 .Nav {
     width: 18%
 }
+*/
