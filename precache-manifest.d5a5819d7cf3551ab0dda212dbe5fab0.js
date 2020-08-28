@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bdacd33e232fbd6c952cd7e3b46494ef",
+    "revision": "4a7ea38f41b31d20987ecfe5cc7fca75",
     "url": "/MyReactWebsite/index.html"
   },
   {
-    "revision": "e0e90c62c3485262a939",
-    "url": "/MyReactWebsite/static/js/2.beb50654.chunk.js"
+    "revision": "6be590345b04a777e628",
+    "url": "/MyReactWebsite/static/js/2.32c4624d.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/MyReactWebsite/static/js/2.beb50654.chunk.js.LICENSE.txt"
+    "url": "/MyReactWebsite/static/js/2.32c4624d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "54c4777a91bd4433405a",
-    "url": "/MyReactWebsite/static/js/main.63ea56df.chunk.js"
+    "revision": "6a781a015d830d0269dd",
+    "url": "/MyReactWebsite/static/js/main.b53b21d8.chunk.js"
   },
   {
     "revision": "8354289594199d0845fe",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "176d60b108107778386e77e81fede84a",
     "url": "/MyReactWebsite/static/media/NBA.176d60b1.png"
+  },
+  {
+    "revision": "6a180024f0a4831d6eee30b06909f6cb",
+    "url": "/MyReactWebsite/static/media/SortingVisualizer.6a180024.png"
   },
   {
     "revision": "8f3cea0ec0524d4d59dc163692ec9b67",

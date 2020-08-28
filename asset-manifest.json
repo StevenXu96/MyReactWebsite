@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.js": "/MyReactWebsite/static/js/main.63ea56df.chunk.js",
-    "main.js.map": "/MyReactWebsite/static/js/main.63ea56df.chunk.js.map",
+    "main.js": "/MyReactWebsite/static/js/main.b53b21d8.chunk.js",
+    "main.js.map": "/MyReactWebsite/static/js/main.b53b21d8.chunk.js.map",
     "runtime-main.js": "/MyReactWebsite/static/js/runtime-main.5b1bfd82.js",
     "runtime-main.js.map": "/MyReactWebsite/static/js/runtime-main.5b1bfd82.js.map",
-    "static/js/2.beb50654.chunk.js": "/MyReactWebsite/static/js/2.beb50654.chunk.js",
-    "static/js/2.beb50654.chunk.js.map": "/MyReactWebsite/static/js/2.beb50654.chunk.js.map",
+    "static/js/2.32c4624d.chunk.js": "/MyReactWebsite/static/js/2.32c4624d.chunk.js",
+    "static/js/2.32c4624d.chunk.js.map": "/MyReactWebsite/static/js/2.32c4624d.chunk.js.map",
     "index.html": "/MyReactWebsite/index.html",
-    "precache-manifest.2e0c96b5d2a219432f564fe38459bc28.js": "/MyReactWebsite/precache-manifest.2e0c96b5d2a219432f564fe38459bc28.js",
+    "precache-manifest.d5a5819d7cf3551ab0dda212dbe5fab0.js": "/MyReactWebsite/precache-manifest.d5a5819d7cf3551ab0dda212dbe5fab0.js",
     "service-worker.js": "/MyReactWebsite/service-worker.js",
-    "static/js/2.beb50654.chunk.js.LICENSE.txt": "/MyReactWebsite/static/js/2.beb50654.chunk.js.LICENSE.txt",
+    "static/js/2.32c4624d.chunk.js.LICENSE.txt": "/MyReactWebsite/static/js/2.32c4624d.chunk.js.LICENSE.txt",
     "static/media/Avalon.png": "/MyReactWebsite/static/media/Avalon.50d89309.png",
     "static/media/NBA.png": "/MyReactWebsite/static/media/NBA.176d60b1.png",
+    "static/media/SortingVisualizer.png": "/MyReactWebsite/static/media/SortingVisualizer.6a180024.png",
     "static/media/calendar.png": "/MyReactWebsite/static/media/calendar.8f3cea0e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.5b1bfd82.js",
-    "static/js/2.beb50654.chunk.js",
-    "static/js/main.63ea56df.chunk.js"
+    "static/js/2.32c4624d.chunk.js",
+    "static/js/main.b53b21d8.chunk.js"
   ]
 }
