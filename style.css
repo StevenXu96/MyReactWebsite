@@ -46,6 +46,12 @@ body {
     background-color: whitesmoke;
 }
 
+.about_grid{
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-auto-rows: minmax(400px, auto);
+}
+
 
 header > p {
     font-family: VT323, monospace;
@@ -53,14 +59,6 @@ header > p {
     color: whitesmoke;
     font-size: 50px;
     margin-left: 60px;
-}
-
-.frameworks{
-    font-style: italic;
-}
-
-.languages{
-    font-style: italic;
 }
 
 ul {
