@@ -200,11 +200,19 @@ li a:hover:not(.active) {
 
 
 .Picture > img{
-    max-width: 90%;
+    max-width: 85%;
     height: auto;
     border-radius: 10px;
 }
 
 .About_Me > p{
+    font-size: 1.2em;
+}
+
+.skil1 > ul > li {
+    font-size: 1.2em;
+}
+
+.skil2 > ul > li {
     font-size: 1.2em;
 }
