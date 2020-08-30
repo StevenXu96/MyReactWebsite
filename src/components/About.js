@@ -5,7 +5,7 @@ function About(){
     return(
         <div className="about_grid">
             <div className="About_Me">
-                <h3>About Me</h3>
+                <h1>About Me</h1>
                 <p>Hi, My name is Steven. I am currently a Computer Science student at the University of Toronto. 
                     I am passionate about programming, especially learning new languages to build new things, 
                     such as this website! Currently, I am working on a creative full stack MERN Chat App which utilizes socket-io. 
@@ -42,7 +42,7 @@ function About(){
             <ol>
                     <li>ReactJs</li>
                     <li>MERN</li>
-                    <li>Data Structures + Algorithms</li>
+                    <li>Data Structures + Algorithms check</li>
                 </ol>
             </div>
         </div>
