@@ -196,3 +196,12 @@ li a:hover:not(.active) {
     width: 18%
 }
 */
+
+.Picture > img{
+    width: 30%;
+    height: 30%;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
