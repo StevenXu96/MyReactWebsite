@@ -59,6 +59,10 @@ body {
     grid-column-end: 3;
 }
 
+.Picture{
+    padding: 5em;
+}
+
 
 header > p {
     font-family: VT323, monospace;
@@ -205,9 +209,7 @@ li a:hover:not(.active) {
 */
 
 .Picture > img{
-    width: auto;
-    max-height: 100%;
-    padding: 2em;
-    border-radius: 5px;
-
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
 }
