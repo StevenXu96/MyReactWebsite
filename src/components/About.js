@@ -27,23 +27,23 @@ function About(){
                 <img src={StevenPic} alt="A picture of the awesome programmer Steven" />
             </div>
             <div className="Skills">
-                <h3>Skills</h3>
+                <h1>Skills</h1>
             </div>
             <div className="skill1">
-                <ol>
+                <ul>
                     <li>Java</li>
                     <li>Python</li>
                     <li>HTML, CSS</li>
                     <li>JavaScript</li>
                     <li>C/C++</li>
-                </ol>
+                </ul>
             </div>
             <div className="skill2">
-            <ol>
+            <ul>
                     <li>ReactJs</li>
                     <li>MERN</li>
-                    <li>Data Structures + Algorithms check</li>
-                </ol>
+                    <li>Data Structures + Algorithms</li>
+            </ul>
             </div>
         </div>
     )
